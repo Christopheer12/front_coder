@@ -11,7 +11,6 @@ function App() {
      <Form/>
     
      <Chat/>
-     
     </div>
   );
 }
