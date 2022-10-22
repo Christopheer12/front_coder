@@ -25,14 +25,14 @@ const Form = () => {
           <label for="lanzamiento" className="font-weight-bold">
           Lanzamiento
           </label>
-          <input type="number" name="lanzamiento" className="form-control" />
+          <input type="text" name="lanzamiento" className="form-control" />
         </div>
 
         <div className="form-group">
           <label for="plataformas" className="font-weight-bold">
           Plataformas
           </label>
-          <input type="number" name="plataformas" className="form-control" />
+          <input type="text" name="plataformas" className="form-control" />
         </div>
 
         <div className="form-group">
@@ -54,7 +54,7 @@ const Form = () => {
           value="Enviar"
           className="btn btn-success mt-3 mb-5"
         />
-      </form>
+      </form> 
     </>
   );
 };
